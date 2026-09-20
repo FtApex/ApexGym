@@ -8,17 +8,8 @@ async function bootstrap() {
 
   app.setGlobalPrefix('api');
 
-  const configuredOrigins = process.env.CORS_ORIGINS
-    ? process.env.CORS_ORIGINS.split(',').map((origin) => origin.trim())
-    : ['http://localhost:3000', 'https://apexgym-prod.up.railway.app'];
-
   app.enableCors({
-    origin: (origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void) => {
-      if (!origin || configuredOrigins.includes('*') || configuredOrigins.includes(origin) || origin.endsWith('.railway.app')) {
-        return callback(null, true);
-      }
-      return callback(null, true);
-    },
+    origin: true,
     credentials: true,
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: 'Content-Type, Accept, Authorization',
