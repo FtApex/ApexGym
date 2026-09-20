@@ -25,6 +25,8 @@ async function bootstrap() {
   // respuestas con un mensaje que el backoffice puede mostrar tal cual.
   app.useGlobalFilters(new DatabaseExceptionFilter());
 
-  await app.listen(process.env.PORT ?? 3001);
+  const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3001;
+  await app.listen(port, '0.0.0.0');
+  console.log(`Backend is running on http://0.0.0.0:${port}/api`);
 }
 bootstrap();
