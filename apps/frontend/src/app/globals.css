@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #e11d48;
+  --brand-primary-hover: #be123c;
+  --brand-primary-alpha: rgba(225, 29, 72, 0.15);
+  --brand-primary-border: rgba(225, 29, 72, 0.3);
+  --brand-primary-glow: rgba(225, 29, 72, 0.25);
+}
+
+/* Dynamic Brand Utility Classes */
+.bg-brand-primary {
+  background-color: var(--brand-primary) !important;
+}
+
+.hover\:bg-brand-primary:hover {
+  background-color: var(--brand-primary) !important;
+}
+
+.hover\:bg-brand-primary-hover:hover {
+  background-color: var(--brand-primary-hover) !important;
+}
+
+.bg-brand-primary-alpha {
+  background-color: var(--brand-primary-alpha) !important;
+}
+
+.hover\:bg-brand-primary-alpha:hover {
+  background-color: var(--brand-primary-alpha) !important;
+}
+
+.text-brand-primary {
+  color: var(--brand-primary) !important;
+}
+
+.hover\:text-brand-primary:hover {
+  color: var(--brand-primary) !important;
+}
+
+.text-brand-primary-contrast {
+  color: var(--brand-primary-text, #ffffff) !important;
+}
+
+.border-brand-primary {
+  border-color: var(--brand-primary) !important;
+}
+
+.hover\:border-brand-primary:hover {
+  border-color: var(--brand-primary) !important;
+}
+
+.border-brand-primary-alpha {
+  border-color: var(--brand-primary-border) !important;
+}
+
+.hover\:border-brand-primary-alpha:hover {
+  border-color: var(--brand-primary-border) !important;
+}
+
+.shadow-brand-glow {
+  box-shadow: 0 0 15px var(--brand-primary-glow) !important;
+}
+
+.focus\:border-brand-primary:focus {
+  border-color: var(--brand-primary) !important;
+}
+
+/* Group Hover Utilities */
+.group:hover .group-hover\:text-brand-primary {
+  color: var(--brand-primary) !important;
+}
+
+.group:hover .group-hover\:bg-brand-primary {
+  background-color: var(--brand-primary) !important;
+}
+
+.group:hover .group-hover\:bg-brand-primary-alpha {
+  background-color: var(--brand-primary-alpha) !important;
+}
+
+.group:hover .group-hover\:border-brand-primary-alpha {
+  border-color: var(--brand-primary-border) !important;
+}
+
+.fill-brand-primary {
+  fill: var(--brand-primary) !important;
+}
+
+/* Premium Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b; /* zinc-950 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a; /* zinc-800 */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-primary);
+}
+
+/* Support for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #27272a #09090b;
+}
+

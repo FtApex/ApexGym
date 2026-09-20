@@ -1,0 +1,17 @@
+{
+  "name": "apex-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=apps/frontend",
+    "dev:backend": "npm run dev --workspace=apps/backend",
+    "build:frontend": "npm run build --workspace=apps/frontend",
+    "build:backend": "npm run build --workspace=apps/backend",
+    "test:frontend": "npm run test --workspace=apps/frontend",
+    "test:backend": "npm run test --workspace=apps/backend"
+  }
+}

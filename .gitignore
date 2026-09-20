@@ -1,0 +1,84 @@
+# ==========================================
+# Archivos solicitados por el usuario
+# ==========================================
+docs/
+.claude/
+.agents/
+*.md
+
+# ==========================================
+# Dependencias & Gestores de paquetes
+# ==========================================
+node_modules/
+.pnp
+.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ==========================================
+# Variables de entorno y credenciales
+# ==========================================
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+.env*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# ==========================================
+# Builds y archivos compilados
+# ==========================================
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# ==========================================
+# Caches y herramientas de desarrollo
+# ==========================================
+.turbo/
+.vercel/
+.cache/
+tmp/
+temp/
+.gemini/
+.cursor/
+.windsurf/
+
+# ==========================================
+# Testing y Cobertura
+# ==========================================
+coverage/
+.nyc_output/
+
+# ==========================================
+# Logs y Depuración
+# ==========================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Archivos de sistema operativo / IDEs
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo

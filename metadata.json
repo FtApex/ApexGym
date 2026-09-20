@@ -1,0 +1,6 @@
+{
+  "name": "ApexGym SaaS - Gym Management & BackOffice System",
+  "description": "Plataforma SaaS de gestión de gimnasios con Landing Page pública interactiva y BackOffice completo (Dashboard, Sedes, Membresías, Promociones, Cupones, Clientes, Entrenadores, Ventas, Gestor Cloudflare R2, CMS y Configuración).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

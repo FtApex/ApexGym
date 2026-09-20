@@ -1,0 +1,30 @@
+import { NestFactory } from '@nestjs/core';
+import { ValidationPipe } from '@nestjs/common';
+import { AppModule } from './app.module';
+import { DatabaseExceptionFilter } from './infrastructure/database-exception.filter';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+
+  app.setGlobalPrefix('api');
+
+  app.enableCors({
+    origin: (process.env.CORS_ORIGINS ?? 'http://localhost:3000')
+      .split(',')
+      .map((origin) => origin.trim()),
+    credentials: true,
+  });
+
+  // Sin `whitelist` global: descarta toda propiedad de un body cuyo tipo no
+  // declara decoradores de validación, y los CRUD reciben clases de dominio
+  // sin decorar — activarlo aquí vaciaría esos payloads. El filtrado estricto
+  // se aplica por endpoint (ver ValidatedBody) donde sí existe un DTO.
+  app.useGlobalPipes(new ValidationPipe({ transform: true }));
+
+  // Convierte los errores de MySQL (índices únicos, claves foráneas) en
+  // respuestas con un mensaje que el backoffice puede mostrar tal cual.
+  app.useGlobalFilters(new DatabaseExceptionFilter());
+
+  await app.listen(process.env.PORT ?? 3001);
+}
+bootstrap();
