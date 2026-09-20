@@ -18,7 +18,7 @@ import { TestimonialsSection } from '../features/landing/components/Testimonials
 import { FaqSection } from '../features/landing/components/FaqSection';
 import { Footer } from '../features/landing/components/Footer';
 
-import { GymBranch } from '@apex/shared';
+import { GymBranch } from '@/shared/types';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '../shared/providers/AuthProvider';
 import {

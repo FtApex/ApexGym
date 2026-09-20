@@ -2,7 +2,7 @@
 
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import type { LoginResponse, User, UserRole } from '@apex/shared';
+import type { LoginResponse, User, UserRole } from '@/shared/types';
 import { api, tokenStorage, setUnauthorizedHandler } from '../api/client';
 
 interface AuthContextValue {

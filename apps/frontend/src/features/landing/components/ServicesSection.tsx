@@ -15,7 +15,7 @@ import {
   X,
   CheckCircle
 } from 'lucide-react';
-import { GymService } from '@apex/shared';
+import { GymService } from '@/shared/types';
 
 interface ServicesSectionProps {
   services?: GymService[];

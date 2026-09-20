@@ -14,7 +14,7 @@ import {
   CheckCircle2,
   X
 } from 'lucide-react';
-import { GymBranch, UserRole } from '@apex/shared';
+import { GymBranch, UserRole } from '@/shared/types';
 
 interface BackofficeTopbarProps {
   branches: GymBranch[];

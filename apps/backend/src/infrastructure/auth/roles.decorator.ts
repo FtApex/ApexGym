@@ -1,5 +1,5 @@
 import { SetMetadata } from '@nestjs/common';
-import type { UserRole } from '@apex/shared';
+import type { UserRole } from '../../domain/shared/types';
 
 export const ROLES_KEY = 'roles';
 

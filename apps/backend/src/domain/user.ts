@@ -1,4 +1,4 @@
-import { User as UserContract, UserRole } from '@apex/shared';
+import { User as UserContract, UserRole } from './shared/types';
 
 /**
  * Usuario del sistema. `passwordHash` vive solo en el dominio y nunca se

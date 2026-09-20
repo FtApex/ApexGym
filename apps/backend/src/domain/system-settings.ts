@@ -1,4 +1,4 @@
-import { SystemSettings as SystemSettingsContract } from '@apex/shared';
+import { SystemSettings as SystemSettingsContract } from './shared/types';
 
 /** Ajustes globales singleton: marca, storage R2, pasarelas, analytics y SMTP. */
 export class SystemSettings implements SystemSettingsContract {

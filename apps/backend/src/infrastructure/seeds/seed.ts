@@ -19,7 +19,7 @@ import {
   initialSystemSettings,
   initialUsers,
   initialRolePermissions,
-} from '@apex/shared';
+} from './seed-data';
 
 import dataSource from '../data-source';
 import { CompanyOrmEntity } from '../../adapters/outbound/company.orm-entity';

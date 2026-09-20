@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Check, Crown, Zap, ShieldCheck, Sparkles, ArrowRight, Tag, X, CreditCard, Lock } from 'lucide-react';
-import { MembershipPlan, Coupon, Promotion } from '@apex/shared';
+import { MembershipPlan, Coupon, Promotion } from '@/shared/types';
 
 interface MembershipsSectionProps {
   plans?: MembershipPlan[];

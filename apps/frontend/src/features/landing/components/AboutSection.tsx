@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Shield, Target, Eye, HeartHandshake, Play, X, Sparkles, Award } from 'lucide-react';
-import { Trainer } from '@apex/shared';
+import { Trainer } from '@/shared/types';
 
 interface AboutSectionProps {
   trainers?: Trainer[];

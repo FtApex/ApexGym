@@ -19,7 +19,7 @@ import type {
   Testimonial,
   Trainer,
   User,
-} from '@apex/shared';
+} from '@/shared/types';
 import { api } from './client';
 import { queryKeys } from './queryKeys';
 import { createCrudHooks, createSingletonHooks } from './createCrudHooks';

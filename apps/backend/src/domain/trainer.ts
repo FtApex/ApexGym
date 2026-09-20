@@ -1,4 +1,4 @@
-import { Trainer as SharedTrainer } from '@apex/shared';
+import { Trainer as SharedTrainer } from './shared/types';
 
 export class Trainer implements SharedTrainer {
   id: string;

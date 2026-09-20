@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Dumbbell, BookOpen, FileText, ShieldCheck, MapPin, Phone, Mail, X, Send, CheckCircle2 } from 'lucide-react';
-import { GymCompany, GymBranch } from '@apex/shared';
+import { GymCompany, GymBranch } from '@/shared/types';
 
 interface FooterProps {
   company?: GymCompany;

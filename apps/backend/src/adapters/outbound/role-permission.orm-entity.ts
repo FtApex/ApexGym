@@ -1,5 +1,5 @@
 import { Entity, PrimaryColumn, Column, Unique } from 'typeorm';
-import type { UserRole, PermissionModule } from '@apex/shared';
+import type { UserRole, PermissionModule } from '../../domain/shared/types';
 
 /** Matriz RBAC: una fila por combinación rol × módulo. */
 @Entity('role_permissions')

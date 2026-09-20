@@ -1,4 +1,4 @@
-import { GymCompany } from '@apex/shared';
+import { GymCompany } from './shared/types';
 
 export class Company implements GymCompany {
   id: string;

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { FolderArchive, Copy, Check, Trash2, Eye, FileText, Folder } from 'lucide-react';
-import { R2MasterFile } from '@apex/shared';
+import { R2MasterFile } from '@/shared/types';
 import { ActionButton } from '../../../shared/components/ActionButton';
 
 interface MasterFileManagerProps {

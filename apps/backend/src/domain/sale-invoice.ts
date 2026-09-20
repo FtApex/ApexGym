@@ -1,4 +1,4 @@
-import { SaleInvoice as SharedSaleInvoice } from '@apex/shared';
+import { SaleInvoice as SharedSaleInvoice } from './shared/types';
 
 export class SaleInvoice implements SharedSaleInvoice {
   id: string;

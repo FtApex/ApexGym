@@ -1,4 +1,4 @@
-import { MembershipPlan as SharedMembershipPlan } from '@apex/shared';
+import { MembershipPlan as SharedMembershipPlan } from './shared/types';
 
 export class MembershipPlan implements SharedMembershipPlan {
   id: string;

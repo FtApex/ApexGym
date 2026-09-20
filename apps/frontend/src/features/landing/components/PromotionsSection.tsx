@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Tag, Sparkles, Clock, ArrowRight, X, ShieldCheck, Check } from 'lucide-react';
-import { Promotion, GymBranch } from '@apex/shared';
+import { Promotion, GymBranch } from '@/shared/types';
 
 interface PromotionsSectionProps {
   promotions?: Promotion[];

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Receipt, FileText, Download, Printer, Search, X, CheckCircle2, Building2 } from 'lucide-react';
-import { SaleInvoice } from '@apex/shared';
+import { SaleInvoice } from '@/shared/types';
 
 interface SalesCrudViewProps {
   invoices: SaleInvoice[];

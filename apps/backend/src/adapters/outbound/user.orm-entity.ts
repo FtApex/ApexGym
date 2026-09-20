@@ -1,5 +1,5 @@
 import { Entity, PrimaryColumn, Column, ManyToOne, JoinColumn, Index } from 'typeorm';
-import type { UserRole } from '@apex/shared';
+import type { UserRole } from '../../domain/shared/types';
 import { CompanyOrmEntity } from './company.orm-entity';
 import { BranchOrmEntity } from './branch.orm-entity';
 

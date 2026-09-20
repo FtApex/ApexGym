@@ -1,5 +1,5 @@
 import { Controller, Post, Get, HttpCode, HttpStatus } from '@nestjs/common';
-import type { JwtPayload, LoginResponse } from '@apex/shared';
+import type { JwtPayload, LoginResponse } from '../../domain/shared/types';
 import { AuthService } from '../../application/auth.service';
 import { PublicUser } from '../../application/user.service';
 import { Public } from '../../infrastructure/auth/public.decorator';

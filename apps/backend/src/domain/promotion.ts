@@ -1,4 +1,4 @@
-import { Promotion as SharedPromotion, PromoStatus } from '@apex/shared';
+import { Promotion as SharedPromotion, PromoStatus } from './shared/types';
 
 export class Promotion implements SharedPromotion {
   id: string;

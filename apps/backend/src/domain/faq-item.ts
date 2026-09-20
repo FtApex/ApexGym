@@ -1,4 +1,4 @@
-import { FaqItem as FaqItemContract } from '@apex/shared';
+import { FaqItem as FaqItemContract } from './shared/types';
 
 export class FaqItem implements FaqItemContract {
   id: string;

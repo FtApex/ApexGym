@@ -1,6 +1,6 @@
 import { Injectable, CanActivate, ExecutionContext, ForbiddenException } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
-import type { UserRole, JwtPayload } from '@apex/shared';
+import type { UserRole, JwtPayload } from '../../domain/shared/types';
 import { ROLES_KEY } from './roles.decorator';
 
 @Injectable()

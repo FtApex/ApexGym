@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { X, ShieldCheck, UserCheck, Lock, ArrowRight, AlertCircle } from 'lucide-react';
-import { User } from '@apex/shared';
+import { User } from '@/shared/types';
 import { useAuth } from '../providers/AuthProvider';
 import { SubmitButton } from './ActionButton';
 

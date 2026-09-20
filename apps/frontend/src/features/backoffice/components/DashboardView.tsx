@@ -14,7 +14,7 @@ import {
   UserCheck
 } from 'lucide-react';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip, BarChart, Bar, CartesianGrid, PieChart, Pie, Cell } from 'recharts';
-import { SaleInvoice, ClientMember, Promotion } from '@apex/shared';
+import { SaleInvoice, ClientMember, Promotion } from '@/shared/types';
 
 interface DashboardViewProps {
   invoices?: SaleInvoice[];

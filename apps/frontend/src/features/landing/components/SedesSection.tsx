@@ -16,7 +16,7 @@ import {
   Instagram,
   Facebook
 } from 'lucide-react';
-import { GymBranch, Trainer } from '@apex/shared';
+import { GymBranch, Trainer } from '@/shared/types';
 
 interface SedesSectionProps {
   branches?: GymBranch[];

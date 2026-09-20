@@ -1,7 +1,7 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcrypt';
-import type { JwtPayload, LoginResponse } from '@apex/shared';
+import type { JwtPayload, LoginResponse } from '../domain/shared/types';
 import { UserService, PublicUser } from './user.service';
 
 @Injectable()

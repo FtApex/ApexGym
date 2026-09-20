@@ -1,4 +1,4 @@
-import { R2MasterFile } from '@apex/shared';
+import { R2MasterFile } from './shared/types';
 
 export class MasterFile implements R2MasterFile {
   id: string;

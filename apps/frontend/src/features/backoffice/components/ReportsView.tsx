@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { BarChart3, Download, FileSpreadsheet, FileText, Calendar, Sparkles } from 'lucide-react';
-import { SaleInvoice } from '@apex/shared';
+import { SaleInvoice } from '@/shared/types';
 
 interface ReportsViewProps {
   invoices: SaleInvoice[];

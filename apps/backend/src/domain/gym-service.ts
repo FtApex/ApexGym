@@ -1,4 +1,4 @@
-import { GymService as GymServiceContract } from '@apex/shared';
+import { GymService as GymServiceContract } from './shared/types';
 
 export class GymService implements GymServiceContract {
   id: string;

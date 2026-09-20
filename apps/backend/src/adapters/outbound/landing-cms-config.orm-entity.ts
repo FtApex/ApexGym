@@ -1,5 +1,5 @@
 import { Entity, PrimaryColumn, Column } from 'typeorm';
-import type { CmsSection } from '@apex/shared';
+import type { CmsSection } from '../../domain/shared/types';
 
 /** Fila única (id fijo) con la configuración de la landing pública. */
 @Entity('landing_cms_config')

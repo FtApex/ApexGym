@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { MessageCircle, X, ChevronRight, Phone } from 'lucide-react';
-import { GymBranch } from '@apex/shared';
+import { GymBranch } from '@/shared/types';
 
 interface FloatingWhatsAppProps {
   branches?: GymBranch[];

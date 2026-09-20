@@ -1,4 +1,4 @@
-import { CarouselBanner as CarouselBannerContract } from '@apex/shared';
+import { CarouselBanner as CarouselBannerContract } from './shared/types';
 
 export class CarouselBanner implements CarouselBannerContract {
   id: string;

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Settings, Save, Check, Loader2 } from 'lucide-react';
-import { SystemSettings } from '@apex/shared';
+import { SystemSettings } from '@/shared/types';
 
 interface SettingsViewProps {
   settings: SystemSettings;

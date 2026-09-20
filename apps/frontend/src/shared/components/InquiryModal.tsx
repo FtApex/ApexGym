@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { X, Send, CheckCircle2, Sparkles, Building2, Phone, Mail, User } from 'lucide-react';
-import { GymBranch } from '@apex/shared';
+import { GymBranch } from '@/shared/types';
 
 interface InquiryModalProps {
   isOpen: boolean;

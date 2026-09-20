@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { Layout, Sparkles, Check, ArrowUp, ArrowDown, Loader2 } from 'lucide-react';
 import confetti from 'canvas-confetti';
-import { CmsSection, LandingCmsConfig } from '@apex/shared';
+import { CmsSection, LandingCmsConfig } from '@/shared/types';
 
 interface CmsLandingEditorProps {
   config: LandingCmsConfig;

@@ -1,4 +1,4 @@
-import { Testimonial as TestimonialContract } from '@apex/shared';
+import { Testimonial as TestimonialContract } from './shared/types';
 
 export class Testimonial implements TestimonialContract {
   id: string;

@@ -1,4 +1,4 @@
-import { GymBranch } from '@apex/shared';
+import { GymBranch } from './shared/types';
 
 export class Branch implements GymBranch {
   id: string;

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Users, Search, Plus, Filter, RefreshCw, CheckCircle2, Clock, X, Save, FileText } from 'lucide-react';
-import { ClientMember, GymBranch, MembershipPlan } from '@apex/shared';
+import { ClientMember, GymBranch, MembershipPlan } from '@/shared/types';
 import { ActionButton, SubmitButton } from '../../../shared/components/ActionButton';
 import { useSubmitGuard } from '../../../shared/hooks/useSubmitGuard';
 

@@ -26,7 +26,6 @@
     "seed": "ts-node -r tsconfig-paths/register src/infrastructure/seeds/seed.ts"
   },
   "dependencies": {
-    "@apex/shared": "*",
     "@aws-sdk/client-s3": "^3.1101.0",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.4",

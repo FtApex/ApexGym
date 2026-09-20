@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { HelpCircle, ChevronDown, Search } from 'lucide-react';
-import { FaqItem } from '@apex/shared';
+import { FaqItem } from '@/shared/types';
 
 interface FaqSectionProps {
   faqs?: FaqItem[];

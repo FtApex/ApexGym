@@ -5,7 +5,7 @@ import {
   IsString,
   MinLength,
 } from 'class-validator';
-import type { UserRole } from '@apex/shared';
+import type { UserRole } from '../../../domain/shared/types';
 
 const ROLES: UserRole[] = [
   'SUPER_ADMIN',

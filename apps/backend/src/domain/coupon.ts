@@ -1,4 +1,4 @@
-import { Coupon as SharedCoupon } from '@apex/shared';
+import { Coupon as SharedCoupon } from './shared/types';
 
 export class Coupon implements SharedCoupon {
   id: string;

@@ -14,7 +14,7 @@ import {
   Sparkles,
   LayoutDashboard
 } from 'lucide-react';
-import { GymBranch, GymCompany, UserRole } from '@apex/shared';
+import { GymBranch, GymCompany, UserRole } from '@/shared/types';
 
 interface HeaderProps {
   company?: GymCompany;

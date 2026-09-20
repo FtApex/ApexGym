@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Star, ChevronLeft, ChevronRight, Quote, Sparkles } from 'lucide-react';
-import { Testimonial } from '@apex/shared';
+import { Testimonial } from '@/shared/types';
 
 interface TestimonialsSectionProps {
   testimonials?: Testimonial[];

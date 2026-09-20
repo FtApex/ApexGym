@@ -21,7 +21,7 @@ import {
   ChevronRight,
   Dumbbell
 } from 'lucide-react';
-import { UserRole } from '@apex/shared';
+import { UserRole } from '@/shared/types';
 
 export type BackofficeTab = 
   | 'dashboard'

@@ -1,4 +1,4 @@
-import { RolePermission as RolePermissionContract, UserRole, PermissionModule } from '@apex/shared';
+import { RolePermission as RolePermissionContract, UserRole, PermissionModule } from './shared/types';
 
 /** Una fila de la matriz RBAC: qué puede hacer un rol sobre un módulo. */
 export class RolePermission implements RolePermissionContract {

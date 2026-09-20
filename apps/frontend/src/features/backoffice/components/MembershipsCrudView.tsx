@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { CreditCard, Plus, Edit2, Copy, Trash2, Check, Sparkles, X, Save } from 'lucide-react';
-import { MembershipPlan } from '@apex/shared';
+import { MembershipPlan } from '@/shared/types';
 import { ActionButton, SubmitButton } from '../../../shared/components/ActionButton';
 import { useSubmitGuard } from '../../../shared/hooks/useSubmitGuard';
 

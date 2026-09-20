@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Play, Pause, ArrowRight, Sparkles } from 'lucide-react';
-import { CarouselBanner } from '@apex/shared';
+import { CarouselBanner } from '@/shared/types';
 
 interface HeroCarouselProps {
   banners?: CarouselBanner[];

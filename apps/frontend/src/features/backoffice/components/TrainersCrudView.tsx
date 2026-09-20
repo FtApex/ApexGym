@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { UserCheck, Plus, Edit2, Trash2, Save, X } from 'lucide-react';
-import { Trainer, GymBranch } from '@apex/shared';
+import { Trainer, GymBranch } from '@/shared/types';
 import { ActionButton, SubmitButton } from '../../../shared/components/ActionButton';
 import { useSubmitGuard } from '../../../shared/hooks/useSubmitGuard';
 

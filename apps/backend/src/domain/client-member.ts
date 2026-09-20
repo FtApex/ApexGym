@@ -1,4 +1,4 @@
-import { ClientMember as SharedClientMember } from '@apex/shared';
+import { ClientMember as SharedClientMember } from './shared/types';
 
 export class ClientMember implements SharedClientMember {
   id: string;

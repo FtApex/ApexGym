@@ -1,5 +1,5 @@
 import { Entity, PrimaryColumn, Column, ManyToOne, JoinColumn } from 'typeorm';
-import type { PromoStatus } from '@apex/shared';
+import type { PromoStatus } from '../../domain/shared/types';
 import { BranchOrmEntity } from './branch.orm-entity';
 import { MembershipPlanOrmEntity } from './membership-plan.orm-entity';
 

@@ -1,4 +1,4 @@
-import { LandingCmsConfig as LandingCmsConfigContract, CmsSection } from '@apex/shared';
+import { LandingCmsConfig as LandingCmsConfigContract, CmsSection } from './shared/types';
 
 /** Configuración singleton de la landing: toggles, SEO y orden de secciones. */
 export class LandingCmsConfig implements LandingCmsConfigContract {

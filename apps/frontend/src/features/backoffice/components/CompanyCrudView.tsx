@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from 'react';
 import { Building2, Save, Check, RefreshCw, Upload, Image as ImageIcon } from 'lucide-react';
-import { GymCompany } from '@apex/shared';
+import { GymCompany } from '@/shared/types';
 import { SubmitButton } from '../../../shared/components/ActionButton';
 import { useSubmitGuard } from '../../../shared/hooks/useSubmitGuard';
 import { useUploadLogo } from '../../../shared/api/hooks';

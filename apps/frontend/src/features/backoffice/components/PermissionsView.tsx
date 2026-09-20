@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { ShieldAlert, Save, Check, Loader2 } from 'lucide-react';
-import { PermissionModule, RolePermission, UserRole } from '@apex/shared';
+import { PermissionModule, RolePermission, UserRole } from '@/shared/types';
 
 interface PermissionsViewProps {
   permissions: RolePermission[];
